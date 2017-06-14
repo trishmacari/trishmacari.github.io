@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    color: #A9A9A9;
+	text-align: center;
+  	font-family: Helvetica;
+
+}
+
+h1 {
+    color: #8FBC8F;
+    font-family: 'Lora', georgia, serif;
+}
+
+p {
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#slogan {
+	font-style: italic;
+	font-family: Helvetica;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+nav a {
+       
+        margin:0 20px;
+        text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration:underline;
+
+}
+
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
